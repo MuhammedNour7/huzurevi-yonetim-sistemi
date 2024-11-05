@@ -1,7 +1,8 @@
 ## Proje Ekibindeki Kisiler:
 
 MUHAMMED NOUR ALKARJI(225260604)
-
+HAMZA MEŞAIL (205260606)
+MURAT CEBBUROĞLU (215260080)
 # huzurevi-yonetim-sistemi
 
 ## Proje Tanımı
