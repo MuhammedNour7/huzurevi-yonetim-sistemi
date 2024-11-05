@@ -60,14 +60,14 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 ## Tablolar
 
 <h4>1. Huzurevi:</h4>
-<code>HuzureviID(PK)</code>,<code>Ad</code>,<code>Adres</code>,<code>Telefon</code>,<code>Email</code>,<code>KuruluşTarihi</code>,<code>Kapasite</code>,<code>MüdürID(FK)</code>.
+<code>HuzureviID(PK)</code>,<code>İsim</code>,<code>Adres</code>,<code>Telefon</code>,<code>Email</code>,<code>KuruluşTarihi</code>,<code>Kapasite</code>,<code>MüdürID(FK)</code>.
 <h4>2. Yatak:</h4>
 <code>YatakID(PK)</code>,<code>HuzureviID(FK)</code>,<code>OdaNumarasi</code>,<code>Durum</code>,<code>Tip</code>,<code>Özellikler</code>.
 <h4>3. Yaşlı:</h4>
-<code>YaşlıID(PK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>DoğumTarihi</code>,<code>Cinsiyet</code>,<code>HuzureviID(FK)</code>,<code>KayıtTarihi</code>,<code>ÇıkışTarihi</code>,
+<code>YaşlıID(PK)</code>,<code>İsim</code>,<code>DoğumTarihi</code>,<code>Cinsiyet</code>,<code>HuzureviID(FK)</code>,<code>KayıtTarihi</code>,<code>ÇıkışTarihi</code>,
 <code>SağlıkDurumu</code>, <code>MedeniDurum</code>,<code>GelirDuzeyi</code>.
 <h4>4. Personel:</h4>
-<code>PersonelID(PK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>Görev</code>,<code>HuzureviID(FK)</code>,<code>Telefon</code>,<code>Email</code>,<code>ÇalışmaBaşlangıçTarihi</code>,<code>UzmanlıkAlanı</code>,<code>PerformansDeğerlendirmesi</code>.
+<code>PersonelID(PK)</code>,<code>İsim</code>,<code>Görev</code>,<code>HuzureviID(FK)</code>,<code>Telefon</code>,<code>Email</code>,<code>ÇalışmaBaşlangıçTarihi</code>,<code>UzmanlıkAlanı</code>,<code>PerformansDeğerlendirmesi</code>.
 <h4>5. Aktivite:</h4>
 <code>AktiviteID(PK)</code>,<code>HuzureviID(FK)</code>,<code>AktiviteAdı</code>,<code>Tarih</code>,<code>AktiviteTürü</code>,<code>SorumluPersonelID(FK)</code>.
 <h4>6. Katılım:</h4>
@@ -77,7 +77,7 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 <h4>8. SağlıkKaydı:</h4>
 <code>KayıtID(PK)</code>,<code>YaşlıID(FK)</code>,<code>Tarih</code>,<code>Tedavi</code>,<code>Tanı</code>,<code>Ilaçlar</code>,<code>DoktorAdı</code>,<code>Durum</code>,<code>KontrolTarihi</code>,<code>AcilDurumKaydı</code>.
 <h4>9. AileÜyesi:</h4>
-<code>AileÜyesiID(PK)</code>,<code>YaşlıID(FK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>Ilişki</code>,<code>Telefon</code>,<code>Email</code>,<code>ZiyaretTarihi</code>.
+<code>AileÜyesiID(PK)</code>,<code>YaşlıID(FK)</code>,<code>İsim</code>,<code>Ilişki</code>,<code>Telefon</code>,<code>Email</code>,<code>ZiyaretTarihi</code>.
 
 ## Ilişkiler
 
