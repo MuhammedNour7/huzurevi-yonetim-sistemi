@@ -12,9 +12,9 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 
 ### Yaşlı Takip ve Yönetimi
 
-**•** #### Yaşlıların kişisel ve sağlık bilgilerini ekleme.                                                           
+**•** Yaşlıların kişisel ve sağlık bilgilerini ekleme.                                                           
 
-#### •Yaşlı bilgilerinde değişiklik yapma.                                                           
+• Yaşlı bilgilerinde değişiklik yapma.                                                           
 
 #### •Sağlık, diyet, ilaç ve günlük aktiviteleri izleme.                                                           
 
