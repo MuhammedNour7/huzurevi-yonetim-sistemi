@@ -10,12 +10,12 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 
 ## Projenin Özellikleri
 
-#### Yaşlı Takip ve Yönetimi
+### Yaşlı Takip ve Yönetimi
 -Yaşlıların kişisel ve sağlık bilgilerini ekleme.
 -Yaşlı bilgilerinde değişiklik yapma.
 -Sağlık, diyet, ilaç ve günlük aktiviteleri izleme.
 -Özel bakım ihtiyaçlarını sisteme kaydetme.
-#### Sağlık Yönetimi
+### Sağlık Yönetimi
 -Periyodik sağlık ölçümlerini kaydetme.
 -İlaç dozlarını kaydetme ve hatırlatma.
 -Randevu kaydı ve hatırlatma.
