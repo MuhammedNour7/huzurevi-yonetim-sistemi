@@ -81,3 +81,34 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 
 ## Ilişkiler
 
+<h4> 1.Huzurevi - Yatak (1:M)</h4>
+
+Bir huzurevi, birden fazla yatağa sahiptir. Her yatak yalnızca bir huzurevine aittir.
+<h4> 2. Huzurevi - Yaşlı (1:M)</h4>
+
+Bir huzurevi, birden fazla yaşlıya ev sahipliği yapabilir. Her yaşlı yalnızca bir huzurevinde kalır.
+<h4> 3. Huzurevi - Personel (M:1)</h4>
+
+Bir huzurevinde birden fazla personel çalışabilir, ancak her personel yalnızca bir huzurevine bağlıdır.
+<h4> 4. Huzurevi - Aktivite (1:M)</h4>
+
+Bir huzurevi birden fazla aktivite düzenleyebilir. Her aktivite yalnızca bir huzurevine bağlıdır.
+<h4> 5. Yaşlı - Sağlık Kaydı (1:M)</h4>
+
+Bir yaşlının birden fazla sağlık kaydı olabilir. Her sağlık kaydı belirli bir yaşlıya aittir.
+<h4> 6. Aktivite - Katılım (M:M)</h4>
+
+Bir aktiviteye birden fazla yaşlı katılabilir ve bir yaşlı birden fazla aktiviteye katılabilir.
+
+<h4> 7. Yaşlı - Aile Üyesi (M:1)</h4>
+
+Bir yaşlının birden fazla aile üyesi olabilir. Her aile üyesi yalnızca bir yaşlıya bağlıdır.
+<h4> 8. Personel - Aktivite (M:M)</h4>
+
+Bir personel birden fazla aktivitede görev alabilir ve bir aktiviteye birden fazla personel dahil olabilir.
+<h4> 9. Yaşlı - Aktivite (M:M)</h4>
+
+Bir yaşlı birden fazla aktiviteye katılabilir ve bir aktiviteye birden fazla yaşlı katılabilir.
+<h4> 10. Yaşlı - Aile Üyesi (M:1)</h4>
+
+Bir yaşlının birden fazla aile üyesi olabilir, ancak her aile üyesi yalnızca bir yaşlıya bağlıdır.
