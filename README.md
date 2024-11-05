@@ -12,46 +12,46 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 
 ### Yaşlı Takip ve Yönetimi
 
-**•** Yaşlıların kişisel ve sağlık bilgilerini ekleme.                                                           
+• Yaşlıların kişisel ve sağlık bilgilerini ekleme.                                                           
 
 • Yaşlı bilgilerinde değişiklik yapma.                                                           
 
-#### •Sağlık, diyet, ilaç ve günlük aktiviteleri izleme.                                                           
+•Sağlık, diyet, ilaç ve günlük aktiviteleri izleme.                                                           
 
-#### •Özel bakım ihtiyaçlarını sisteme kaydetme.                                                           
+•Özel bakım ihtiyaçlarını sisteme kaydetme.                                                           
 
 ### Sağlık Yönetimi
 
-#### •Periyodik sağlık ölçümlerini kaydetme.
+•Periyodik sağlık ölçümlerini kaydetme.
 
-#### •İlaç dozlarını kaydetme ve hatırlatma.
+•İlaç dozlarını kaydetme ve hatırlatma.
 
-#### •Randevu kaydı ve hatırlatma.
+•Randevu kaydı ve hatırlatma.
 
-#### •Acil durumları ve müdahaleleri kaydetme.
+•Acil durumları ve müdahaleleri kaydetme.
 
 ### Personel Yönetimi
 
-#### •Personel bilgilerini ve görevlerini kaydetme.
+•Personel bilgilerini ve görevlerini kaydetme.
 
-#### •Günlük vardiya ve görev düzenlemeleri.
+•Günlük vardiya ve görev düzenlemeleri.
 
-#### •Personel verimliliğini değerlendirme.
+•Personel verimliliğini değerlendirme.
 
-#### •Eğitim ve sertifikaları kayıt altına alma.
+•Eğitim ve sertifikaları kayıt altına alma.
 
 ### Ziyaretçi Yönetimi
 
-#### •Ziyaretçilerin kimlik ve giriş bilgilerini kaydetme.
+•Ziyaretçilerin kimlik ve giriş bilgilerini kaydetme.
 
-#### •Ziyaret saatlerini düzenleme.
+•Ziyaret saatlerini düzenleme.
 
-#### •Ziyaretçilerin güvenlik kaydı.
+•Ziyaretçilerin güvenlik kaydı.
 
 ### Etkinlik ve Aktivite Yönetimi
 
-#### •Sosyal etkinlikleri ve takvimlerini gösterme.
+•Sosyal etkinlikleri ve takvimlerini gösterme.
 
-#### •Yaşlıların katıldıkları aktiviteleri kaydetme.
+•Yaşlıların katıldıkları aktiviteleri kaydetme.
 
-#### •İlgi alanlarına göre etkinlik önerme.
+•İlgi alanlarına göre etkinlik önerme.
