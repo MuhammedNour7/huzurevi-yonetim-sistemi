@@ -1,2 +1,2 @@
-#Proje Ekibindeki Kisiler:
+# Proje Ekibindeki Kisiler:
 ## huzurevi-yonetim-sistemi
