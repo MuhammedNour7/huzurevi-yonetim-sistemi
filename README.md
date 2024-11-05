@@ -63,7 +63,7 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 <code>HuzureviID(PK)</code>,<code>Ad</code>,<code>Adres</code>,<code>Telefon</code>,<code>Email</code>,<code>KuruluşTarihi</code>,<code>Kapasite</code>,<code>MüdürID(FK)</code>.
 <h4>2. Yatak:</h4>
 <code>YatakID(PK)</code>,<code>HuzureviID(FK)</code>,<code>OdaNumarasi</code>,<code>Durum</code>,<code>Tip</code>,<code>Özellikler</code>.
-<h4>3. YaşlıID:</h4>
+<h4>3. Yaşlı:</h4>
 <code>YaşlıID(PK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>DoğumTarihi</code>,<code>Cinsiyet</code>,<code>HuzureviID(FK)</code>,<code>KayıtTarihi</code>,<code>ÇıkışTarihi</code>,
 <code>SağlıkDurumu</code>, <code>MedeniDurum</code>,<code>GelirDuzeyi</code>.
 <h4>4. Personel:</h4>
