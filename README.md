@@ -60,21 +60,21 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 ## Tablolar
 
 <h4>1. Huzurevi:</h4>
-<code>HuzureviID(PK)</code>,<code>Ad</code>,<code>Adres</code>,<code>Telefon</code>,<code>Email</code>,<code>KurulusTarihi</code>,<code>Kapasite</code>,<code>MudurID(FK)</code>.
+<code>HuzureviID(PK)</code>,<code>Ad</code>,<code>Adres</code>,<code>Telefon</code>,<code>Email</code>,<code>KuruluşTarihi</code>,<code>Kapasite</code>,<code>MüdürID(FK)</code>.
 <h4>2. Yatak:</h4>
-<code>YatakID(PK)</code>,<code>HuzureviID(FK)</code>,<code>OdaNumarasi</code>,<code>Durum</code>,<code>Tip</code>,<code>Ozellikler</code>.
-<h4>3. YasliID:</h4>
-<code>YasliID(PK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>DogumTarihi</code>,<code>Cinsiyet</code>,<code>HuzureviID(FK)</code>,<code>KayitTarihi</code>,<code>CikisTarihi</code>,
-<code>SaglikDurumu</code>, <code>MedeniDurum</code>,<code>GelirDuzeyi</code>.
+<code>YatakID(PK)</code>,<code>HuzureviID(FK)</code>,<code>OdaNumarasi</code>,<code>Durum</code>,<code>Tip</code>,<code>Özellikler</code>.
+<h4>3. YaşlıID:</h4>
+<code>YaşlıID(PK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>DoğumTarihi</code>,<code>Cinsiyet</code>,<code>HuzureviID(FK)</code>,<code>KayıtTarihi</code>,<code>ÇıkışTarihi</code>,
+<code>SağlıkDurumu</code>, <code>MedeniDurum</code>,<code>GelirDuzeyi</code>.
 <h4>4. Personel:</h4>
-<code>PersonelID(PK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>Gorev</code>,<code>HuzureviID(FK)</code>,<code>Telefon</code>,<code>Email</code>,<code>CalismaBaslangicTarihi</code>,<code>UzmanlikAlani</code>,<code>PerformansDegerlendirmesi</code>.
+<code>PersonelID(PK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>Görev</code>,<code>HuzureviID(FK)</code>,<code>Telefon</code>,<code>Email</code>,<code>ÇalışmaBaşlangıçTarihi</code>,<code>UzmanlıkAlanı</code>,<code>PerformansDeğerlendirmesi</code>.
 <h4>5. Aktivite:</h4>
-<code>AktiviteID(PK)</code>,<code>HuzureviID(FK)</code>,<code>AktiviteAd</code>,<code>Tarih</code>,<code>Aciklama</code>,<code>KatilimSayisi</code>,<code>AktiviteTuru</code>,<code>SorumluPersonelID(FK)</code>.
-<h4>6. Katilim:</h4>
-<code>KatilimID(PK)</code>,<code>AktiviteID(FK)</code>,<code>YasliID(FK)</code>,<code>KatilimTarihi</code>,<code>Degerlendirme</code>,<code>KatilimDurumu</code>.
+<code>AktiviteID(PK)</code>,<code>HuzureviID(FK)</code>,<code>AktiviteAdı</code>,<code>Tarih</code>,<code>AktiviteTürü</code>,<code>SorumluPersonelID(FK)</code>.
+<h4>6. Katılım:</h4>
+<code>KatılımID(PK)</code>,<code>AktiviteID(FK)</code>,<code>YaşlıID(FK)</code>,<code>KatılımTarihi</code>,<code>Değerlendirme</code>,<code>KatılımDurumu</code>.
 <h4>7. GeriBildirim:</h4>
-<code>GeriBildirimID(PK)</code>,<code>YasliID(FK)</code>,<code>Tarih</code>,<code>Degerlendirme</code>,<code>Yorum</code>,<code>CevapDurumu</code>.
-<h4>8. SaglikKaydi:</h4>
-<code>KayitID(PK)</code>,<code>YasliID(FK)</code>,<code>Tarih</code>,<code>Tedavi</code>,<code>DoktorAd</code>,<code>Durum</code>,<code>KontrolTarihi</code>,<code>AcilDurumKaydi</code>.
-<h4>9. AileUyesi:</h4>
-<code>AileUyesiID(PK)</code>,<code>YasliID(FK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>Telefon</code>,<code>Email</code>,<code>ZiyaretTarihi</code>.
+<code>GeriBildirimID(PK)</code>,<code>YaşlıID(FK)</code>,<code>Tarih</code>,<code>Değerlendirme</code>,<code>Yorum</code>,<code>CevapDurumu</code>.
+<h4>8. SağlıkKaydı:</h4>
+<code>KayıtID(PK)</code>,<code>YaşlıID(FK)</code>,<code>Tarih</code>,<code>Tedavi</code>,<code>Tanı</code>,<code>Ilaçlar</code>,<code>DoktorAdı</code>,<code>Durum</code>,<code>KontrolTarihi</code>,<code>AcilDurumKaydı</code>.
+<h4>9. AileÜyesi:</h4>
+<code>AileÜyesiID(PK)</code>,<code>YaşlıID(FK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>Ilişki</code>,<code>Telefon</code>,<code>Email</code>,<code>ZiyaretTarihi</code>.
