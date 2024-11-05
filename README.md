@@ -21,20 +21,37 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 #### -Özel bakım ihtiyaçlarını sisteme kaydetme.                                                           
 
 ### Sağlık Yönetimi
--Periyodik sağlık ölçümlerini kaydetme.
--İlaç dozlarını kaydetme ve hatırlatma.
--Randevu kaydı ve hatırlatma.
--Acil durumları ve müdahaleleri kaydetme.
+
+#### -Periyodik sağlık ölçümlerini kaydetme.
+
+#### -İlaç dozlarını kaydetme ve hatırlatma.
+
+#### -Randevu kaydı ve hatırlatma.
+
+#### -Acil durumları ve müdahaleleri kaydetme.
+
 ### Personel Yönetimi
+
 Personel bilgilerini ve görevlerini kaydetme.
--Günlük vardiya ve görev düzenlemeleri.
--Personel verimliliğini değerlendirme.
--Eğitim ve sertifikaları kayıt altına alma.
+
+#### -Günlük vardiya ve görev düzenlemeleri.
+
+#### -Personel verimliliğini değerlendirme.
+
+#### -Eğitim ve sertifikaları kayıt altına alma.
+
 ### Ziyaretçi Yönetimi
--Ziyaretçilerin kimlik ve giriş bilgilerini kaydetme.
--Ziyaret saatlerini düzenleme.
--Ziyaretçilerin güvenlik kaydı.
+
+#### -Ziyaretçilerin kimlik ve giriş bilgilerini kaydetme.
+
+#### -Ziyaret saatlerini düzenleme.
+
+#### -Ziyaretçilerin güvenlik kaydı.
+
 ### Etkinlik ve Aktivite Yönetimi
--Sosyal etkinlikleri ve takvimlerini gösterme.
--Yaşlıların katıldıkları aktiviteleri kaydetme.
--İlgi alanlarına göre etkinlik önerme.
+
+#### -Sosyal etkinlikleri ve takvimlerini gösterme.
+
+#### -Yaşlıların katıldıkları aktiviteleri kaydetme.
+
+#### -İlgi alanlarına göre etkinlik önerme.
