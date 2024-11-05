@@ -1,2 +1,1 @@
 ## huzurevi-yonetim-sistemi
-#hhhhhh
