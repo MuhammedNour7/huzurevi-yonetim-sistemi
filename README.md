@@ -78,3 +78,6 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 <code>KayıtID(PK)</code>,<code>YaşlıID(FK)</code>,<code>Tarih</code>,<code>Tedavi</code>,<code>Tanı</code>,<code>Ilaçlar</code>,<code>DoktorAdı</code>,<code>Durum</code>,<code>KontrolTarihi</code>,<code>AcilDurumKaydı</code>.
 <h4>9. AileÜyesi:</h4>
 <code>AileÜyesiID(PK)</code>,<code>YaşlıID(FK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>Ilişki</code>,<code>Telefon</code>,<code>Email</code>,<code>ZiyaretTarihi</code>.
+
+## Ilişkiler
+
