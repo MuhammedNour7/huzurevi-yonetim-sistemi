@@ -60,11 +60,11 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini, sağlık
 ## Tablolar
 
 <h4>1. Huzurevi:</h4>
-<code>HuzureviID(PK)</code>,<code>Ad,Adres</code>,<code>Telefon</code>,<code>Email</code>,<code>KurulusTarihi</code>,<code>Kapasite</code>,<code>MudurID(FK)</code>.
+<code>HuzureviID(PK)</code>,<code>Ad</code>,<code>Adres</code>,<code>Telefon</code>,<code>Email</code>,<code>KurulusTarihi</code>,<code>Kapasite</code>,<code>MudurID(FK)</code>.
 <h4>2. Yatak:</h4>
 <code>YatakID(PK)</code>,<code>HuzureviID(FK)</code>,<code>OdaNumarasi</code>,<code>Durum</code>,<code>Tip</code>,<code>Ozellikler</code>.
-<h4>3. YasliID(PK):</h4>
-<code>Ad</code>,<code>Soyad</code>,<code>DogumTarihi</code>,<code>Cinsiyet</code>,<code>HuzureviID(FK)</code>,<code>OdaDurumKayit</code>,<code>KayitTarihi</code>,<code>CikisTarihi</code>,<code>SosyalHizmetDurumu</code>,<code>SaglikDurumu</code>, <code>MaddiDurum</code>,<code>GelirDuzeyi</code>.
+<h4>3. YasliID:</h4>
+<code>YasliID(PK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>DogumTarihi</code>,<code>Cinsiyet</code>,<code>HuzureviID(FK)</code>,<code>OdaDurumKayit</code>,<code>KayitTarihi</code>,<code>CikisTarihi</code>,<code>SosyalHizmetDurumu</code>,<code>SaglikDurumu</code>, <code>MaddiDurum</code>,<code>GelirDuzeyi</code>.
 <h4>4. Personel:</h4>
 <code>PersonelID(PK)</code>,<code>Ad</code>,<code>Soyad</code>,<code>Gorev</code>,<code>HuzureviID(FK)</code>,<code>Telefon</code>,<code>Email</code>,<code>CalismaBaslangicTarihi</code>,<code>UzmanlikAlani</code>,<code>PerformansDegerlendirmesi</code>.
 <h4>5. Aktivite:</h4>
