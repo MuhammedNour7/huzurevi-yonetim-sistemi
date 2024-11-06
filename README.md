@@ -109,6 +109,11 @@ Bir personel birden fazla aktivitede görev alabilir ve bir aktiviteye birden fa
 <h4> 9. Yaşlı - Aktivite (M:M)</h4>
 
 Bir yaşlı birden fazla aktiviteye katılabilir ve bir aktiviteye birden fazla yaşlı katılabilir.
-<h4> 10. Yaşlı - Aile Üyesi (M:1)</h4>
+<h4> 10. Yaşlı - Geri Bildirim (M:1)</h4>
 
-Bir yaşlının birden fazla aile üyesi olabilir, ancak her aile üyesi yalnızca bir yaşlıya bağlıdır.
+Bir huzurevinde birden fazla geri bildirim bulunabilir.Her geri bildirim,o huzurevindeki belirli bir yaşlıya aittir.
+
+<h4> 11. Personel - Geri Bildirim (1:M)</h4>
+Bir personel,birden fazla geri bildirimi yönetebilir.Ancak her geri bildirim yalnızca bir personelin sorumluluğundadır.
+
+
