@@ -59,9 +59,9 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini ve hizmet
 
 ## Ilişkiler
 
-<h4> 1.Yaşlı - Yatak (1:1)</h4>
+<h4> 1.Huzurevi - Yatak (1:N)</h4>
 
-Bir yaşlı, bir yatağa sahiptir.
+Bir huzurevi, birden fazla yatağa sahiptir.
 <h4> 2. Huzurevi - Yaşlı (1:N)</h4>
 
 Bir huzurevi, birden fazla yaşlıya ev sahipliği yapabilir. Her yaşlı yalnızca bir huzurevinde kalır.
