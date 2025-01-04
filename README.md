@@ -44,7 +44,7 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini ve hizmet
 ## Tablolar
 
 <h4>1. Huzurevi:</h4>
-<code>HuzureviID(PK)</code>,<code>İsim</code>,<code>Adres</code>,<code>Telefon</code>,<code>Email</code>,<code>KuruluşTarihi</code>,<code>Kapasite</code>,<code>MüdürID(FK)</code>.
+<code>HuzureviID(PK)</code>,<code>İsim</code>,<code>Adres</code>,<code>Telefon</code>,<code>Email</code>,<code>KuruluşTarihi</code>,<code>Kapasite</code>.
 <h4>2. Yatak:</h4>
 <code>YatakID(PK)</code>,<code>HuzureviID(FK)</code>,<code>OdaNo</code>,<code>Durum</code>,<code>Tip</code>.
 <h4>3. Yaşlı:</h4>
