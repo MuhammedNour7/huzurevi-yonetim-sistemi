@@ -16,7 +16,7 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini ve hizmet
 * Yaşlı bilgilerinde değişiklik yapma.                                                           
 
 * Sağlık, diyet, ilaç ve günlük aktiviteleri izleme.                                                           
-* Özel bakım ihtiyaçlarını sisteme kaydetme.                                                           
+                                                          
 
 ### Sağlık Yönetimi
 
@@ -24,7 +24,7 @@ Huzurevinde yaşayan yaşlı bireylerin takibini, personel yönetimini ve hizmet
 
 * İlaç dozlarını kaydetme ve hatırlatma.
 
-* Acil durumları ve müdahaleleri kaydetme.
+
 
 ### Personel Yönetimi
 
