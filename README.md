@@ -1,7 +1,4 @@
-## Proje Ekibindeki Kisiler:
 
-
-* MURAT CEBBUROĞLU (215260080)
 # huzurevi-yonetim-sistemi
 
 ## Proje Tanımı
